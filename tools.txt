@@ -1,0 +1,60 @@
+>>> TOOLS <<<
+    My frequently used (mainly cli) tools.
+    All tool names are package names or commands.
+
+
+light - Set/get screen brightness(backlight).
+    Use with sudo or set elevated privilages with chmod: sudo chmod u+s $(which light)
+
+NetworkManager - Network connection manager and user applications(wifi, ethernet, connections)
+    |-nmcli - CLI interface
+    |-nmtui - curses based terminal UI
+
+wifi - Turn internal wifi device on/off
+bluetooth - Turn bluetooth on/off
+    (type "man wifi" to see more of this tool set)
+
+xbindkeys - identify or map keyboard keys
+
+pulseaudio - general purpose sound server (I used for volume control)
+    then used both PulseAudio and ALSA
+
+playerctl - media player controller (pause,play music etc; bind to keys)
+
+mc (Midnight Commander) - TUI dual pane File explorer
+lf - a better file explorer
+ctpv - a file previewer for lf
+
+shotwell - lightweight image manager(viewer)
+
+mariaDB - official SQL databse for arch (works as a drop-in replacement for mySQL)
+mycli - a CLI frontend for mySQL and mariaDB and more
+pspg - a pager (like less) that displays tables nicely. used with mycli
+
+speedtest-cli - used to measure internet speed
+    install: pip install speedtest-cli
+    usage: speedtest --simple
+
+blueberry - bluetooth management tool. Made for Linux Mint, works on all distros.
+    bluedevil-sendfile, bluedevil-wizard are KDE's bluetooth tools. Also useful.
+
+envycontrol - an AUR package that can completely power off NVidia GPU, saving battery.
+
+cpupower - control processor frecuencies, enable or disable them etc
+
+fd - a better alternative to find
+fzf - fuzzy finder
+
+lazygit - amazing TUI git wrapper
+dooit - TUI todo tool
+
+xfreerdp - use microsft's remote desktop protocol and establish connections
+mongosh - mongoBD CLI client. all mongodb stuff are not in official repo's anymore (legal reasons)
+
+rofi - launcher
+rofi-greenclip - clipboard manager to be used with rofi
+
+picom - compositor
+https://github.com/pijulius/picom - the fork I'm using, this adds animations
+
+
