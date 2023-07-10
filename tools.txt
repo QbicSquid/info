@@ -18,6 +18,7 @@ xbindkeys - identify or map keyboard keys
 
 pulseaudio - general purpose sound server (I used for volume control)
     then used both PulseAudio and ALSA
+    I replaced it later with pipeWire
 
 playerctl - media player controller (pause,play music etc; bind to keys)
 
@@ -39,8 +40,8 @@ blueberry - bluetooth management tool. Made for Linux Mint, works on all distros
     bluedevil-sendfile, bluedevil-wizard are KDE's bluetooth tools. Also useful.
 
 envycontrol - an AUR package that can completely power off NVidia GPU, saving battery.
-
 cpupower - control processor frecuencies, enable or disable them etc
+powertop - monitor and tune power usage. This fixed the overheating issue
 
 fd - a better alternative to find
 fzf - fuzzy finder
