@@ -58,4 +58,6 @@ rofi-greenclip - clipboard manager to be used with rofi
 picom - compositor
 https://github.com/pijulius/picom - the fork I'm using, this adds animations
 
+flameshot - gerat screenshot utility
+
 
